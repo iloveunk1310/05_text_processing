@@ -1,4 +1,5 @@
 1. Tổng quan
+2. 
 Notebook này trình bày một quy trình xử lý ngôn ngữ tự nhiên (NLP) chi tiết trên bộ dữ liệu 20newsgroups, tập trung vào việc so sánh hiệu quả của các kỹ thuật tiền xử lý và vector hóa khác nhau. Các nội dung chính bao gồm:
 
 * Phân tích Thống kê (EDA): Khám phá đặc điểm độ dài văn bản, phân phối nhãn, kiểm định Mann-Whitney U và kiểm chứng định luật Zipf.
@@ -14,6 +15,7 @@ Notebook này trình bày một quy trình xử lý ngôn ngữ tự nhiên (NLP
 2. Cách chạy
 
 Yêu cầu cài đặt
+
 **Đảm bảo bạn đã cài đặt các thư viện Python sau**:
 
 numpy, pandas
