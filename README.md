@@ -10,18 +10,20 @@ Notebook này trình bày một quy trình xử lý ngôn ngữ tự nhiên (NLP
 
 * Vector hóa & Không gian đặc trưng: Thực hiện BoW, TF-IDF và Word2Vec; trực quan hóa bằng t-SNE và đánh giá bằng chỉ số Silhouette.
 
-*Mô hình Ngữ nghĩa: Sử dụng Sentence Transformer (SBERT) để so sánh hiệu suất phân loại và phân cụm với phương pháp TF-IDF truyền thống.
+* Mô hình Ngữ nghĩa: Sử dụng Sentence Transformer (SBERT) để so sánh hiệu suất phân loại và phân cụm với phương pháp TF-IDF truyền thống.
 
 2. Cách chạy (How to run)
 
 Yêu cầu cài đặt
-Đảm bảo bạn đã cài đặt các thư viện Python sau:
+**Đảm bảo bạn đã cài đặt các thư viện Python sau**:
 
 numpy, pandas
 
 scikit-learn
 
-nltk
+wordcloud
+
+spacy, nltk, tokenizers
 
 scipy, matplotlib, seaborn
 
@@ -29,12 +31,12 @@ gensim
 
 sentence-transformers
 
-Các bước thực hiện
+**Các bước thực hiện**
 
-Mở Notebook: Sử dụng Jupyter Notebook hoặc Google Colab để mở file 05_text_preprocessing.ipynb.
+* Mở Notebook: Sử dụng Jupyter Notebook hoặc Google Colab để mở file 05_text_preprocessing.ipynb.
 
-Tải dữ liệu: Notebook sử dụng thư viện sklearn.datasets để tự động tải bộ dữ liệu 20newsgroups. Bạn cần có kết nối internet trong lần chạy đầu tiên.
+* Tải dữ liệu: Notebook sử dụng thư viện sklearn.datasets để tự động tải bộ dữ liệu 20newsgroups. Yêu cầu có kết nối internet trong lần chạy đầu tiên.
 
-Chạy tuần tự: Thực thi các cell từ trên xuống dưới. Các bước tiền xử lý đã được đóng gói thành các hàm và pipeline để dễ dàng theo dõi kết quả thay đổi của dữ liệu.
+* Chạy tuần tự: Thực thi các cell từ trên xuống dưới. Các bước tiền xử lý đã được đóng gói thành các hàm và pipeline để dễ dàng theo dõi kết quả thay đổi của dữ liệu.
 
-Quan sát kết quả: Các biểu đồ trực quan (t-SNE, Word Cloud) và bảng so sánh hiệu suất (Accuracy, F1-score) sẽ được hiển thị trực tiếp sau mỗi bước thực nghiệm
+* Quan sát kết quả: Các biểu đồ trực quan (t-SNE, Word Cloud) và bảng so sánh hiệu suất (Accuracy, F1-score) sẽ được hiển thị trực tiếp sau mỗi bước thực nghiệm
