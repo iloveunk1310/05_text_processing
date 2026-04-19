@@ -1,0 +1,12 @@
+gensim==4.4.0
+matplotlib==3.10.8
+nltk==3.9.4
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+scipy==1.17.1
+seaborn==0.13.2
+sentence-transformers==5.4.1
+spacy==3.8.14
+tokenizers==0.22.2
+wordcloud==1.9.6
