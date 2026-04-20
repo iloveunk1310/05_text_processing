@@ -12,7 +12,13 @@ Notebook này trình bày một quy trình xử lý ngôn ngữ tự nhiên (NLP
 
 * Mô hình Ngữ nghĩa: Sử dụng Sentence Transformer (SBERT) để so sánh hiệu suất phân loại và phân cụm với phương pháp TF-IDF truyền thống.
 
-2. Cách chạy
+2. Tập dữ liệu
+
+Nghiên cứu sử dụng tập dữ liệu 20newsgroups, bao gồm khoảng 18.000 bài đăng thuộc
+20 chủ đề khác nhau. Tập huấn luyện với hơn 11.000 mẫu được sử dụng chính, với sự
+phân bổ các lớp tương đối đồng đều.
+
+3. Cách chạy
 
 Yêu cầu cài đặt
 
